@@ -21,7 +21,7 @@ def preprocess_image_pil(pil_image):
     return img_tensor
 
 # رابط کاربری
-st.title("🧠 تحلیل سونوگرافی پوست با هوش مصنوعی (PyTorch + PIL)")
+st.title("🧠 تحلیل سونوگرافی پوست با هوش مصنوعی ")
 
 uploaded = st.file_uploader("یک تصویر سونوگرافی آپلود کنید:", type=["jpg", "jpeg", "png"])
 if uploaded:
